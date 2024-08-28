@@ -22,6 +22,6 @@ class Solution:
         if result< -2 ** 31:
             return -2**31   #returns the lower bound of the 32-bit signed integer range.
         elif result> 2**31-1:
-            return 2**31
+            return 2**31 -1
         
         return result
