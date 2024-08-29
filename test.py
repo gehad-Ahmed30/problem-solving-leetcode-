@@ -1,7 +1,6 @@
-n=(input())
-x=[]
-for i in n:
-    if n.count(i)==3:
-        x.append(i)
-print(''.join(map(str,x)))
-
+word1=list(input())
+word2=list(input())
+x=''.join(word1)
+y=''.join(word2)
+print(x)
+print(y)
