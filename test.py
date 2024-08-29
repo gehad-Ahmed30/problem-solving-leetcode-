@@ -1,8 +1,7 @@
-l=int(input())
-h=int(input())
-temp=0
-for i in range (l,h+1):
-    if i % 2!=0:
-        temp+=1
-print(temp)
+n=(input())
+x=[]
+for i in n:
+    if n.count(i)==3:
+        x.append(i)
+print(''.join(map(str,x)))
 
